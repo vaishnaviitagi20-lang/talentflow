@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://talentflow-p2jy.onrender.com/",
+  baseURL: "https://talentflow-p2jy.onrender.com",
   headers: { "Content-Type": "application/json" },
   timeout: 15000,
 });
